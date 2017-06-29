@@ -12,8 +12,8 @@ class App extends Component {
     super(props);
     this.state = {
       stories: [
-        // { name: 'Nag', body: 'this is Nag story' },
-        // { name: 'Venkat', body: 'this is Venkat story' }
+        // { name: 'Baradha', body: 'This is Baradha story' },
+        // { name: 'Bradys', body: 'this is Bradys story' }
       ]
     };
   }
@@ -26,7 +26,7 @@ class App extends Component {
     return (
       <div className="container">
 
-        <div className="page-header"> my FB </div>
+        <div className="page-header"> Bradys FB </div>
 
         <StoryForm onNewStory={this.addNewStory.bind(this)}/>
         <StoryList stories={this.state.stories}/>
